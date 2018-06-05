@@ -36,7 +36,7 @@ Compilation
    clang execute_py.c main.c  -ldl  -lmpi
 
  * F90 demo :
-   mpif90 -ldl main.f90 execute_py.o
+   mpif90 -ldl main.f90 execute_py.c
  
 
 Run
