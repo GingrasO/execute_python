@@ -1,7 +1,7 @@
 !> Fortran 90 demo of Python embedding
 !!
 !! To compile:
-!!   mpif90 -ldl main.f90 execute_py.o
+!!   mpif90 -ldl main.f90 execute_py.c
 !!
 program exec_py
 implicit none
